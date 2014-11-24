@@ -242,6 +242,14 @@ $WORDPRESS_SOCIAL_LOGIN_PROVIDERS_CONFIG = ARRAY(
 		"cat"               => "misc",
 	),
 	ARRAY( 
+		"provider_id"       => "Usosweb",
+		"provider_name"     => "Usosweb", 
+		"require_client_id" => true,
+		"callback"          => true,
+		"new_app_link"      => "https://apps.usos.edu.pl", 
+		"cat"               => "misc",
+	),
+	ARRAY( 
 		"provider_id"       => "Odnoklassniki",
 		"provider_name"     => "Odnoklassniki", 
 		"require_client_id" => true,
